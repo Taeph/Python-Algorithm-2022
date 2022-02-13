@@ -12,8 +12,9 @@ https://www.youtube.com/watch?v=ukkLCl9yBvE
 코드포스 블루레벨 정도면 코딩테스트 합격 가능(또는 삼성 역량 테스트 B형)
 추천 언어 : C++, 파이썬
 
-1. Python 문법 공부
+
+### 1. Python 문법 공부
 https://codeup.kr/problemsetsol.php?psid=33
 사이트를 통해서 기본 문법 학습
 
-2.
+
