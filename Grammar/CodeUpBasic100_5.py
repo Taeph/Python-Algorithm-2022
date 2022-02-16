@@ -1,4 +1,4 @@
-# CodeUp 6058 ~ 
+# CodeUp 6058 ~  6076
 # 6063 ~ 6070 >> 조건문(if)
 # 6071 ~ 6076 >> 반복문(for)
 
@@ -21,7 +21,7 @@ while a<=n :
 c = ord(input())
 t = ord('a')
 while t<=c :
-    print(chr(t), end=' ') # print(..., end='') 같이 작성하면 출력값 이후 ''을 출려한다
+    print(chr(t), end=' ') # print(..., end='') 같이 작성하면 출력값 이후 ''을 출력한다
     t += 1
 
 # 6073
