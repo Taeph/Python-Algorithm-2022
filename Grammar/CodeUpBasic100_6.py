@@ -5,6 +5,10 @@ a, b, c = input().split()
 a = int(a)
 b = int(b)
 c = int(c)
+i = 1
+while not (i%a==0 and i%b==0 and i%c==0) :
+    i += 1
+print(i)
 # 최소공배수 알고리즘
 # 최대공약수 알고리즘 
 # 공부하기
