@@ -147,3 +147,74 @@ result = [i for i in arr if i not in remove_set]    # arr리스트를 돌면서,
 print(result)   # [4,1]
 
 
+# 문자열
+"" or ''
+print('Hi')
+print("Hello")
+
+a = "KangTaeJun"
+print(a[0:4])  # "Kang"
+print(a*3)     # "KangTaeJunKangTaeJunKangTaeJun"
+
+변경이 불가능 하다
+a[5] = "J"     # 에러발생
+
+# 튜플
+튜플은 한번 값이 설정되면, 변경이 불가능 하다
+(리스트는 가능했다)
+리스트를 사용할 때 보다 작은 메모리를 사용한다
+
+tuple_a = (1,2,3,4,5,6,7,8)
+print(tuple_a[3])   # 4
+print(tuple_a[3:5]) # 4,5,6
+
+변경이 불가능 하다
+tuple_a[0] = 10     # 에러발생
+
+서로 다른 성질의 데이터를 묶어서 관리해야할 때 많이 사용된다
+
+# 딕셔너리
+(Key,Value) 를 쌍으로 가지는 자료형이다
+리스트, 튜플 과 같이 순차적으로 저장되지 않는다
+내부적으로 Hash Table을 사용하기 때문에 상수시간의 연산속도
+
+data = dict()
+data['사과'] = 'Apple'
+data['바나나'] = 'Banana'
+data['오랜지'] = 'Orange'
+print(data)     # {'사과': 'Apple', '바나나': 'Banana', '오랜지': 'Orange'}
+
+if '사과' in data :
+    print('사과가 존재한다')
+
+상수시간이 걸리기 때문에, 데이터를 저장하고 관리하는데 리스트보다 훨씬 효율적이다
+키 데이터만 뽑아서 리스트로 사용하고 싶으면 keys()
+값 데이터만 뽑아서 리스트로 사용하고 싶으면 values()
+print(data.keys())      # dict_keys(['사과', '바나나', '오랜지']) 
+print(data.values())    # dict_values(['Apple', 'Banana', 'Orange'])
+
+key_list = list(data.keys()) 
+이런식으로 리스트로 변경해서 사용한다
+
+# 집합자료형
+중복을 허용하지 않고, 순서가 없다
+집합은 리스트나 문자열로 초기화 할 수 있다 
+set() 함수 사용
+
+data = set([1,1,2,2,3,3])
+print(data)     # {1,2,3}
+
+data = {1,1,2,3,4,4}
+print(data)     # {1,2,3,4}
+
+합집합, 교집합, 차집합 연산을 사용할 수 있다
+합집합 = a | b 
+교집합 = a & b
+차집합 = a - b
+
+data.add(val)
+data.update([val,val,val])
+data.remove(val)
+
+리스트, 튜플은 순서가 있어서 indexing 으로 접근
+사전자료형, 집합자료형은 연산이 상수시간이 걸린다 (키값으로는 변하지않는 값 사용해야함)

@@ -17,7 +17,12 @@ https://www.youtube.com/watch?v=ukkLCl9yBvE
 https://codeup.kr/problemsetsol.php?psid=33
 사이트를 통해서 기본 문법 학습
 
+
 ### 2. Python 공부 및 코딩테스트 연습
 https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC
 강의 들으면서, 문법정리 하면서 문제풀이 시작
 각 알고리즘 사이트에 있는 기본 문법으로 풀 수 있는 문제들 풀면서 문법 익히기
+
+프로그래머스 level1 문제들 python 으로 풀기
+
+
