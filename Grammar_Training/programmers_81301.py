@@ -6,16 +6,18 @@ def solution(s):
     answer = 0
 
     num_to_word = dict()
-    num_to_word['zero']  = 0
-    num_to_word['one']   = 1
-    num_to_word['two']   = 2 
-    num_to_word['three'] = 3  
-    num_to_word['four']  = 4
-    num_to_word['five']  = 5
-    num_to_word['six']   = 6
-    num_to_word['seven'] = 7
-    num_to_word['eight'] = 8
-    num_to_word['nine']  = 9
+    # 딕셔너리 이렇게 초기화 하자
+    num_to_word = {'zero':'0', 'one':'1', 'two':'2', 'three':'3', 'four':'4', 'five':'5', 'six':'6', 'seven':'7', 'eight':'8', 'nine':'9'}
+    # num_to_word['zero']  = '0'
+    # num_to_word['one']   = '1'
+    # num_to_word['two']   = '2'
+    # num_to_word['three'] = '3' 
+    # num_to_word['four']  = '4'
+    # num_to_word['five']  = '5'
+    # num_to_word['six']   = '6'
+    # num_to_word['seven'] = '7'
+    # num_to_word['eight'] = '8'
+    # num_to_word['nine']  = '9'
     # print(num_to_word)
 
     i = 0
@@ -31,7 +33,7 @@ def solution(s):
             word += i
             if word in num_to_word:
                 # print(num_to_word[word])
-                temp.append(str(num_to_word[word]))
+                temp.append(num_to_word[word])
                 word = ''
 
     # print(temp)  
