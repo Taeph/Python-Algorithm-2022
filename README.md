@@ -23,6 +23,8 @@ https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0
 강의 들으면서, 문법정리 하면서 문제풀이 시작
 각 알고리즘 사이트에 있는 기본 문법으로 풀 수 있는 문제들 풀면서 문법 익히기
 
-프로그래머스 level1 문제들 python 으로 풀기
+프로그래머스에 카카오문제 level1 ~ level3 까지 풀어보고 못 푼 문제 넘어가고
+
+그리디, BFS, DFS, 다이나믹 공부하기
 
 
